@@ -9,23 +9,14 @@ import News from './components/news/News';
 
 import './App.css';
 
-var listOfImages =[];
-
 class App extends React.Component {
-  importAll(r) {
-    return r.keys().map(r);
-  }
-  componentWillMount() {
-    listOfImages = this.importAll(require.context('./assets/images/slider_images', false, /\.(png|jpg|svg)$/));
-    console.log("All images are ", this.listOfImages);
-  }
   render(){
     return (
       <BrowserRouter>
       <div className="App container-fluid">
         <Header />
         <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Home appLogo={Logo}/>} />
         <Route path='/news' element={<News/>} />
         </Routes>
         <Footer appLogo={Logo} />
