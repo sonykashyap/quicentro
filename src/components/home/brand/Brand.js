@@ -1,10 +1,10 @@
 import React from 'react';
 // import * as images from '../../assets/images/brands';
-import brandImage1 from '../../assets/images/brands/accersories-1-1.png';
-import brandImage2 from '../../assets/images/brands/Logo_Bibi.png';
-import brandImage3 from '../../assets/images/brands/Logo_Fossil.png';
-import brandImage4 from '../../assets/images/brands/Logo_Funky-Fish.png';
-import brandImage5 from '../../assets/images/brands/movistar-2-1.png';
+import brandImage1 from '../../../assets/images/brands/accersories-1-1.png';
+import brandImage2 from '../../../assets/images/brands/Logo_Bibi.png';
+import brandImage3 from '../../../assets/images/brands/Logo_Fossil.png';
+import brandImage4 from '../../../assets/images/brands/Logo_Funky-Fish.png';
+import brandImage5 from '../../../assets/images/brands/movistar-2-1.png';
 
 
 const Brand = () => {

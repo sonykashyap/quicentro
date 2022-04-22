@@ -1,21 +1,22 @@
 import React from 'react';
 import Logo from '../../assets/images/app-logo.png';
+import {Link} from 'react-router-dom';
 
 
 const Navbar = () =>{
     return(
         <nav className="navbar navbar-expand-lg">
             <div className='col-lg-3'>
-                <a className="navbar-brand brand-logo" href="#"> <img src={Logo} alt="Logo" /> </a>
+                <Link className="navbar-brand brand-logo" to="/"> <img src={Logo} alt="Logo" /> </Link>
             </div>
             <div className='col-lg-8'>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">NEWS <span className="sr-only">(current)</span></a>
+                        <Link className='nav-link' to="/news">NEWS <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">REGISTER EARN</a>
+                        <Link className='nav-link' to="/registerearn">REGISTER EARN</Link>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
