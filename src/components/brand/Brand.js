@@ -15,36 +15,31 @@ const Brand = () => {
             </div>
             <div className='col-lg-12 pb-5'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col-lg-3 col-6 mb-2 mb-lg-0 mb-md-0 mb-xl-0 mb-xxl-0'>
                         <div className='brandimg-container'>
                             <div className='brand-info'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, harum?  </div>
                             <img className='w-100' src={brandImage1} alt="brand" />
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-lg-3 col-6 mb-2 mb-lg-0 mb-md-0 mb-xl-0 mb-xxl-0'>
                         <div className='brandimg-container'>
                             <div className='brand-info'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, harum?  </div>
                             <img className='w-100' src={brandImage2} alt="brand" />
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-lg-3 col-6 mb-2 mb-lg-0 mb-md-0 mb-xl-0 mb-xxl-0'>
                         <div className='brandimg-container'>
                             <div className='brand-info'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, harum?  </div>
                             <img className='w-100' src={brandImage3} alt="brand" />
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-lg-3 col-6 mb-2 mb-lg-0 mb-md-0 mb-xl-0 mb-xxl-0'>
                         <div className='brandimg-container'>
                             <div className='brand-info'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, harum?  </div>
                             <img className='w-100' src={brandImage4} alt="brand" />
                         </div>
                     </div>
-                    <div className='col'>
-                        <div className='brandimg-container'>
-                            <div className='brand-info'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, harum?  </div>
-                            <img className='w-100' src={brandImage5} alt="brand" />
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div className='col-lg-12 text-center pb-5'>

@@ -6,10 +6,10 @@ return(
     <div className='row'>
         <div className='col-lg-12 header-background header1'>
             <div className='row'>
-                <div className='col-lg-9 text-center text-lg-left text-md-left text-xl-left text-xxl-left'>
+                <div className='col-lg-9 col-md-6 text-center text-lg-start text-md-start text-xl-start text-xxl-start'>
                     <span>OPEN NOW FRIDAY 7H00-13H00</span>
                 </div>
-                <div className='col-lg-3 d-flex align-items-center'>
+                <div className='col-lg-3 col-md-6 d-flex align-items-center '>
                     <div className='input-container position-relative'>
                         <input className='input-search' placeholder='Seek...'/>
                         <span className='position-absolute'><i class="fa-solid fa-magnifying-glass"></i></span>

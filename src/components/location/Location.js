@@ -29,7 +29,7 @@ const Location = (props) => {
                     </div>
                     <div className='col-lg-12 pt-2 text-center text-white'>
                         <h5>Contact on:</h5>
-                        <button className='btn-fbmessenger text-primary btn-lg d-flex-inline align-items-center'><i class="fa-brands fa-facebook-messenger text-primary me-3"></i>Message us</button>
+                        <button className='btn-fbmessenger mb-3 mb-lg-0 mb-md-0 mb-xl-0 mb-xxl-0 text-primary btn-lg d-flex-inline align-items-center'><i class="fa-brands fa-facebook-messenger text-primary me-3"></i>Message us</button>
                     </div>
                 </div>
             </div>
