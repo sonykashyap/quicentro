@@ -12,29 +12,29 @@ const Navbar = () =>{
             <div className='col-lg-8'>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <Link className='nav-link' to="/news">NEWS <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className='nav-link' to="/registerearn">REGISTER EARN</Link>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        STORES
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">DISCOUNTS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">GASTRONOMY</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">SOCIAL RESPONSIBILITY</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">COMMERCIAL CONTACT</a>
-                    </li>
+                        <li className="nav-item active">
+                            <Link className='nav-link' to="/news">NEWS <span className="sr-only">(current)</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className='nav-link' to="/registerearn">REGISTER EARN</Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link" to="/stores">
+                                STORES
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="discounts">DISCOUNTS</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="gastronomy">GASTRONOMY</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="social-responsibility">SOCIAL RESPONSIBILITY</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="commerical-contact">COMMERCIAL CONTACT</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
