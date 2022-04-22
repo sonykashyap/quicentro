@@ -9,7 +9,6 @@ const Home = (props) => {
             <Slider />
             <Brand />
             <Location headingImage={props.appLogo} />
-            <div>Hello</div>
         </div>
     )
 }
